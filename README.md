@@ -7,6 +7,9 @@ git clone git@github.com:duleorlovic/cloudflare_page_rule_redirect_tf.git my-app
 cd my-app_cloudflare_page_rule_redirect_tf
 ```
 
+Create subdomain with any values (eg A 192.0.2.1) for your target domain, example `jitsi.srb.in.rs`
+
+
 Export variables or create tfvars file
 ```
 # terraform.tfvars
